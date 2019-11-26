@@ -1,20 +1,14 @@
-let xhr = new XMLHttpRequest();
+let info = new XMLHttpRequest();
 
 
-xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4){
-        let mokiniai = JSON.parse(xhr.responseText);
-        console.log(mokiniai);
+info.onreadystatechange = function () {
+    if (info.readyState === 4){
+        let info2 = JSON.parse(info.responseText);
+        console.log(info2);
 
-        for (let i=0; i<=mokiniai; i++){
-            const text = document.createElement('li');
-            document.body.appendChild(text);
-            text.textContent = i;
         }
+    };
 
-    }
-};
+info.open('GET', 'list.json');
 
-xhr.open('GET', 'duomenys/list.json');
-
-xhr.send();
+info.send();
