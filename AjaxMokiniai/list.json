@@ -1,0 +1,26 @@
+"mokiniai":[
+  {
+    "vardas" : "Jonas",
+    "lokacija" : true
+  },
+  {
+    "vardas" : "Mykolas",
+    "lokacija" : true
+  },
+  {
+    "vardas" : "Viktorija",
+    "lokacija" : false
+  },
+  {
+    "vardas" : "Arvydas",
+    "lokacija" : false
+  },
+  {
+    "vardas" : "Darius",
+    "lokacija" : true
+  },
+  {
+    "vardas" : "Alvyra",
+    "lokacija" : true
+  }
+]
